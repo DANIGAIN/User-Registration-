@@ -1,0 +1,85 @@
+*{
+
+    box-sizing: border-box;
+    font-family:"Times New Roman", Times, serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(46, 77, 124);
+}
+.container{
+    padding: 25px 30px ;
+    width: 100%;
+    background-color: white;
+    border-radius: 25px ;
+
+
+}
+.container .title{
+    font-size: 25px ;
+    font-weight: 500;
+
+}
+.container form .user{
+
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+form .user .input-box {
+    margin: 20px 0 12px 0 ;
+    width:calc(100% /2 - 20px )
+
+}
+form .user .input-box .details{
+
+    margin-bottom: 5px ;
+    display: block;
+    font-weight: 500;
+
+}
+form .user input{
+
+    height: 45px;
+    width:100%;
+    outline:none;
+    font-size: 16px ;
+}
+form .gender-details .gender-title{
+    font-size:20px ;
+    font-weight: 500;
+}
+form .gender-details .ing{
+      margin: 10px ;
+      height:25px;
+      width:30px;
+      border: 0px;
+      vertical-align: middle;
+    
+}
+form .button{
+    
+    height: 45px ;
+    margin: 45px 0;
+
+}
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(170, 206, 181);
+    background-color: rgb(46, 77, 124);
+    border-radius: 5px;
+}
+
+
+
+
+
